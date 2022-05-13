@@ -37,7 +37,7 @@ const Home = () => {
 
   return (
     <div>
-      Hello I am here in the Home component
+      Hello Ivor I see you
       <SearchBar handleSearchValue={handleSearchValue}/>
       {isLoading ? (console.log("isLoading.")) : patients ? <Patients patients={patients} searchValue={searchValue} /> :  NoPatientsList}
     </div>

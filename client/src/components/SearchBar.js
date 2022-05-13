@@ -7,7 +7,7 @@ import React, { useEffect, useState } from "react";
 const SearchBar = (props) => {
 
   const handleSearchInput = (e) => {
-    e.target.value && props.handleSearchValue(e.target.value);
+    props.handleSearchValue(e.target.value);
   }
 
 
